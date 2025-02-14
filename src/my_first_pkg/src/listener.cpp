@@ -50,7 +50,7 @@ int main(int argc, char **argv)
         std::cout << "This message has been received " << counter << " times." << std::endl;
         
         ros::spinOnce();
-		loop_rate.sleep();
+	loop_rate.sleep();
     }
     return 0;
 }
