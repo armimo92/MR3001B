@@ -24,8 +24,8 @@ int main(int argc, char **argv)
 {
     // ROS commands that must be used by default
     ros::init(argc, argv, "talker_vector");    // The word within quotations " " must match the name of your cpp file.
-	ros::NodeHandle nh;                 // ROS Node initialization within code
-	ros::Rate loop_rate(10);            // Running frequency of our code 
+    ros::NodeHandle nh;                 // ROS Node initialization within code
+    ros::Rate loop_rate(10);            // Running frequency of our code 
 
     // Create your ROS Publishers here (if any)...
     ros::Publisher vec_data_1_pub = nh.advertise<geometry_msgs::Vector3>("vector_3",100);
