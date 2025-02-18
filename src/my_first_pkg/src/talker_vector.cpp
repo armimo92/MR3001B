@@ -57,7 +57,7 @@ int main(int argc, char **argv)
         data_vector_3(1) = x*0.05;
         data_vector_3(2) = x;
 
-        x = x + 0.1;
+        x = x + 0.001;
         
         
         // Define the data (local variables) to send through ROS Topics  
