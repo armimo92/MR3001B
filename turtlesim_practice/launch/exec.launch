@@ -1,12 +1,11 @@
 <launch>
 	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>	
     
-    <node pkg="turtlesim_practice" type="open_loop_node" name="open_loop_node" output = "screen" />	
+	<!--Add your nodes here--/>
     
-    <node pkg="plotjuggler" type="plotjuggler" name="plotjuggler" 
-    args="--layout /home/armando/class_ws/src/turtlesim_practice/src/open_loop_plot_layout.xml"/>
+	<node pkg="plotjuggler" type="plotjuggler" name="plotjuggler" args="--layout /home/armando/class_ws/src/turtlesim_practice/src/open_loop_plot_layout.xml"/>
     
-    <node pkg="rqt_graph" type="rqt_graph" name="rqt_graph" />	
+	<node pkg="rqt_graph" type="rqt_graph" name="rqt_graph" />	
 
 </launch>
 
