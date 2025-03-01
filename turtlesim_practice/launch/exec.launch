@@ -1,7 +1,7 @@
 <launch>
 	<node pkg="turtlesim" type="turtlesim_node" name="turtlesim_node" output="screen"/>	
     
-	<!--Add your nodes here--/>
+	<!--Add your nodes here/-->
     
 	<node pkg="plotjuggler" type="plotjuggler" name="plotjuggler" args="--layout /home/armando/class_ws/src/turtlesim_practice/src/open_loop_plot_layout.xml"/>
     
